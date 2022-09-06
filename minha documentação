@@ -1,0 +1,37 @@
+1- Webservices
+2- SOAPxRest:
+
+
+
+
+
+
+
+
+
+1-Webservices:
+    São aplicações cliente servidor que se comunicam pela Word Wide Web´s(WWW) através do protocolo HTTP(HyperText Transfer Protocol) possibilitando a interoperabilidade entre softwares e aplicações executando em uma grande variedade de platarformas e frameworks.
+        resumo:
+        são pedaços de software disponibilizar através do HTTP para client e sempre podemos reaproveitar 
+
+2-SOAPxRest:
+    SOAP(
+        *Protocolo de troca de mensagens em XML,
+        *usa WSDL na comunicação entre cliente e servidor,
+        *Invoca serviços através de chamadas de RPC
+        *Não retorna um resultado facilmente legível para humanos,
+        *Comunicação feita HTTP mas pode usar outros protocolos como STMP, FTP etc,
+        * JavaScript pode invocar um serviço SOAP mas essa implementação é bastante complexa de fazer,
+        Comparado com Rest sua performance não é das melhores 
+    )
+    Rest(
+        *Um estilo arquitetural,
+        *Usa  XML, JSON etc... para enviar e receber dados,
+        *Simplesmente chama via URL PATH,
+        *Resultado legível por humanos já que é simplesmente JSON pu XML por exemplo,
+        *Comunicação feita por HTTP,
+        *Fácil de invocar via JavaScript,
+        *Comparado SOAP a performance é melhor consome menos recursos de processamneto, código mais enxuto etc ...
+    )
+
+
