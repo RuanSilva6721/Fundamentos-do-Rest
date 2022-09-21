@@ -13,8 +13,14 @@
     São aplicações cliente servidor que se comunicam pela Word Wide Web´s(WWW) através do protocolo HTTP(HyperText Transfer Protocol) possibilitando a interoperabilidade entre softwares e aplicações executando em uma grande variedade de platarformas e frameworks.
         resumo:
         são pedaços de software disponibilizar através do HTTP para client e sempre podemos reaproveitar 
+2-Rest: É um estilo arquitetural que fornece padrões entre sistemas de computadores na Web, facilitandoa comunicação entre sistemas
+    RestFul: Como é chamado os sistemas compatíveis com o Rest, são caracterizados pela falta de estado por separar as reponsabilidades do cliente e do servidor
+    url: Os caminhos devem ser projetados para ajudar o cliente a saber o que está acontecendo. primeira parte do caminho deve ser a forma plural do recurso
+    códigos de status: 200(ok), 201(create), 204(no content) solocitação bem-sucedida e nada ta sendo retornado no corpo da resposta, 400(bad request) a solicitação não pode ser processada devido á erro de sintaxe ou tamanho excessivo, 403(forbidden) o clinete não tem permissão para acessar o recurso, 404(not found) o recurso não pode ser encontrado e é possível que tenha sido excluido ou ainda não exista, 500(unternal server error) resposta genérica para uma falha inesperada se não houver mais informações específicas disponíveis
+    códigos de status para verbos do HTTP: GET(200), POST(201), PUT(200), DELETE(204)
+    
 
-2-SOAPxRest:
+3-SOAPxRest:
     SOAP(
         *Protocolo de troca de mensagens em XML,
         *usa WSDL na comunicação entre cliente e servidor,
