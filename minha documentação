@@ -10,10 +10,22 @@
 
 
 
-1-Webservices:
+1-Webservices: É a divisão de um serviço maior em vários serviços menores( é um estilo arquitetural)
     São aplicações cliente servidor que se comunicam pela Word Wide Web´s(WWW) através do protocolo HTTP(HyperText Transfer Protocol) possibilitando a interoperabilidade entre softwares e aplicações executando em uma grande variedade de platarformas e frameworks.
         resumo:
         são pedaços de software disponibilizar através do HTTP para client e sempre podemos reaproveitar 
+
+     *Maneira particular de projetar software como conjuntos de serviços implantação independente
+     *Caracteristicas comuns da arquitetura: á capacidade comercial, á implantação automatizada, á inteligência nos endpoints e ao controle descentralizado de linguagem de dados
+     *implatação e codificação são independentes
+     *podemos ter diferentes linguagens e db, cada serviço pode usar uma linguagem e db
+     * Maior facilidade para escalar um serviço
+     *fronteira rigida entre os módulos, possibilitando está em linguegm diferentes
+     * compentização de serviços: Componente é uma unidade de software que é independentemente substituivel e atualizável
+    *desvantagens: chamadas remotas são mais caras, 
+
+
+
 2-Rest: 
     É um estilo arquitetural que fornece padrões entre sistemas de computadores na Web, facilitandoa comunicação entre sistemas
 
@@ -49,7 +61,9 @@
     *independente de linguagem, não é registro ao javascript
     *para seres humanos, é fácil de ler e escrever. Para máquinas, é fácil de interpretar e gerar
     *JSON está constituído em duas estruturas: 1- Uma coleção de pares nome/valor. Em várias linguagens, isto é caracterizado como um object, record, struct, dicionário, hast table, keyed list, ou arrays associativas; 2- Uma lista ordenada de valores. Na maioria das linguagens, isto é caracterixado como uma array, vetor, lista ou sequência
-    
-
+    * para colocar aspas duplas dentro das aspas duplas é preciso de uma /   exemplo: "Ruan Felipe\"Silva\" dsssdds"
+    *Os número no JSON não tem octais ou hexadecimais
+    *Apenas propriedades, não tem nenhum método
+    * array em JSOn exemplo: myJSON = '["Ford", "BMW", "Fiat"]';
 
 
